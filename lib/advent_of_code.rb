@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'AdventOfCode/version'
+require 'advent_of_code/version'
 
 # Main entry point
 module AdventOfCode
