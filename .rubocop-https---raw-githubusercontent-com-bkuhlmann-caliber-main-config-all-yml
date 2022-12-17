@@ -1,6 +1,0 @@
-inherit_from:
-  - ruby.yml
-  - performance.yml
-  - thread.yml
-  - rake.yml
-  - rspec.yml
