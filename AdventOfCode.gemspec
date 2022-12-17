@@ -10,7 +10,6 @@ Gem::Specification.new do |spec|
   spec.email         = ["eiche_jim@yahoo.com"]
 
   spec.summary       = "A place to play around with Advent of Code solutions"
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
   # Specify which files should be added to the gem when it is released.
