@@ -1,0 +1,9 @@
+require:
+  - standard
+  - rubocop-rspec
+
+AllCops:
+  NewCops: enable
+
+Gemspec/RequiredRubyVersion:
+  Enabled: false

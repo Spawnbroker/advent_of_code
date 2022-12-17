@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    AdventOfCode (0.1.0)
+    advent_of_code (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -33,31 +33,44 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.12.0)
     rspec-support (3.12.0)
-    rubocop (1.4.2)
+    rubocop (1.26.1)
       parallel (~> 1.10)
-      parser (>= 2.7.1.5)
+      parser (>= 3.1.0.0)
       rainbow (>= 2.2.2, < 4.0)
-      regexp_parser (>= 1.8)
+      regexp_parser (>= 1.8, < 3.0)
       rexml
-      rubocop-ast (>= 1.1.1)
+      rubocop-ast (>= 1.16.0, < 2.0)
       ruby-progressbar (~> 1.7)
-      unicode-display_width (>= 1.4.0, < 2.0)
+      unicode-display_width (>= 1.4.0, < 3.0)
     rubocop-ast (1.24.0)
       parser (>= 3.1.1.0)
+    rubocop-performance (1.13.3)
+      rubocop (>= 1.7.0, < 2.0)
+      rubocop-ast (>= 0.4.0)
+    rubocop-rake (0.6.0)
+      rubocop (~> 1.0)
+    rubocop-rspec (2.11.1)
+      rubocop (~> 1.19)
     ruby-progressbar (1.11.0)
-    unicode-display_width (1.8.0)
+    standard (1.9.1)
+      rubocop (= 1.26.1)
+      rubocop-performance (= 1.13.3)
+    unicode-display_width (2.3.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  AdventOfCode!
+  advent_of_code!
   bundler (~> 2.3.26)
   rake (~> 10.0)
   reek (~> 6.1.2)
   rexml (~> 3.1.9.1)
   rspec (~> 3.0)
-  rubocop (~> 1.4.0)
+  rubocop (~> 1.26.0)
+  rubocop-rake (~> 0.6.0)
+  rubocop-rspec (~> 2.11.1)
+  standard (~> 1.9.0)
 
 BUNDLED WITH
    2.3.26
