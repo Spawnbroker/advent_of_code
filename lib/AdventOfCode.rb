@@ -1,6 +1,6 @@
 require "AdventOfCode/version"
 
+# Main entry point
 module AdventOfCode
-  class Error < StandardError; end
   # Your code goes here...
 end
